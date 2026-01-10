@@ -1,1 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>MathMastery – Calculus I</title>
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+
+<h1 style="text-align:center; margin:40px;">Calculus I (AP Calc AB)</h1>
+
+<div class="accordion">
+  <button class="accordion-btn">Limits</button>
+  <div class="panel">
+    <h3>Key Concepts</h3>
+    <details>
+      <summary>Limit Definition</summary>
+      <p>A limit describes the behavior of a function near a point.</p>
+    </details>
+
+    <h3>Examples</h3>
+    <div id="limit-graph" style="height:300px;"></div>
+
+    <h3>Further Practice</h3>
+    <p>Coming soon…</p>
+
+    <h3>AI Prompts</h3>
+    <p>Ask: “Explain limits visually with motion.”</p>
+  </div>
+</div>
+
+<script src="https://www.desmos.com/api/v1.6/calculator.js?apiKey=desmos"></script>
+<script>
+const calc = Desmos.GraphingCalculator(document.getElementById("limit-graph"));
+calc.setExpression({ id: 'f', latex: 'f(x)=x^2' });
+</script>
+
+</body>
+</html>
 
