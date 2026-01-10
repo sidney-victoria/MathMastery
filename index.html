@@ -2,16 +2,48 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Interactive Calculus</title>
-  <link rel="stylesheet" href="style.css">
+  <title>MathMastery</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@600&display=swap" rel="stylesheet">
 </head>
 <body>
-  <h1>Interactive Calculus</h1>
-  <p>Welcome! Let’s explore calculus visually.</p>
 
-  <div id="calculator" style="width: 600px; height: 400px;"></div>
+<header class="navbar">
+  <div class="menu">
+    ☰
+    <div class="dropdown">
+      <a href="calculus/calc1.html">Calculus I (Math 140)</a>
+      <a href="#">Calculus II (Math 141)</a>
+      <a href="#">Discrete Math (Math 311)</a>
+      <a href="#">Real Analysis (Math 312)</a>
+      <a href="#">Fourier Series (Math 412)</a>
+      <a href="#">Intro to Probability (Math 414)</a>
+      <a href="#">Intro to Mathematical Statistics (Math 415)</a>
+    </div>
+  </div>
 
-  <script src="https://www.desmos.com/api/v1.6/calculator.js?apiKey=desmos"></script>
-  <script src="main.js"></script>
+  <div class="logo">MathMastery</div>
+</header>
+
+<section class="hero">
+  <h1>Welcome to MathMastery</h1>
+</section>
+
+<section class="course right">
+  <img src="assets/images/calc1.png" alt="Calc I">
+  <div class="course-text">Calc I</div>
+</section>
+
+<section class="course left">
+  <img src="assets/images/calc2.png" alt="Calc II">
+  <div class="course-text">Calc II</div>
+</section>
+
+<section class="course right">
+  <img src="assets/images/discrete.png" alt="Discrete Math">
+  <div class="course-text">Discrete Math</div>
+</section>
+
+<script src="js/main.js"></script>
 </body>
 </html>
