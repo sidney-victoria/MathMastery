@@ -124,4 +124,10 @@ body {
 
 .course.left .course-link { flex-direction: row-reverse; }
 
+.logo-link {
+  text-decoration: none;
+  color: var(--pink-dark);
+}
+
+
 
