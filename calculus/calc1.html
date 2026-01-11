@@ -4,6 +4,25 @@
   <title>MathMastery – Calculus I</title>
   <link rel="stylesheet" href="../css/style.css">
 </head>
+<header class="navbar">
+  <div class="menu">
+    ☰
+    <div class="dropdown">
+      <a href="calc1.html">Calculus I (Math 140)</a>
+      <a href="#">Calculus II (Math 141)</a>
+      <a href="#">Discrete Math (Math 311)</a>
+      <a href="#">Real Analysis (Math 312)</a>
+      <a href="#">Fourier Series (Math 412)</a>
+      <a href="#">Intro to Probability (Math 414)</a>
+      <a href="#">Intro to Mathematical Statistics (Math 415)</a>
+    </div>
+  </div>
+
+  <div class="logo">
+    <a href="../index.html" class="logo-link">MathMastery</a>
+  </div>
+</header>
+
 <body>
 
 <h1 style="text-align:center; margin:40px;">Calculus I (AP Calc AB)</h1>
@@ -33,7 +52,7 @@
 const calc = Desmos.GraphingCalculator(document.getElementById("limit-graph"));
 calc.setExpression({ id: 'f', latex: 'f(x)=x^2' });
 </script>
-
+  
 </body>
 </html>
 
