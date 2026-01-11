@@ -94,3 +94,34 @@ body {
 
 .course.left { flex-direction: row-reverse; }
 
+.course-link {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  text-decoration: none;
+  color: inherit; /* Keep text color the same */
+  width: 100%;
+  height: 100%;
+  padding: 40px;
+  border-radius: 30px;
+  transition: all 0.3s ease;
+}
+
+.course-link:hover {
+  background: var(--pink);
+  box-shadow: 0 0 25px var(--pink);
+}
+
+.course img {
+  width: 300px;
+  border-radius: 20px;
+}
+
+.course-text {
+  font-size: 64px;
+  font-family: 'Baloo 2', cursive;
+}
+
+.course.left .course-link { flex-direction: row-reverse; }
+
+
